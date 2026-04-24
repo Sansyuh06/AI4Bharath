@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Foldables — Quantum-Enhanced Drug Discovery</title>
+<title>Foldables — Catalyst & Enzyme Discovery</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js">
 function startManualIntake() {
     document.getElementById('entry-choice-screen').style.display = 'none';
@@ -703,7 +703,7 @@ canvas.chart-canvas { width:100%!important; }
   <div class="loading-content">
     <img src="/quantamed/static/logo.png" alt="Foldables Logo" class="loading-logo">
     <div class="loading-text">FOLDABLES</div>
-    <div class="loading-subtext">INITIALIZING QUANTUM ENGINES...</div>
+    <div class="loading-subtext">INITIALIZING CATALYST ENGINES...</div>
     <div class="loading-bar-container">
       <div class="loading-bar"></div>
     </div>
@@ -713,13 +713,13 @@ canvas.chart-canvas { width:100%!important; }
   
   <div id="entry-choice-screen" class="entry-overlay">
     <div class="entry-card-container">
-      <h2 class="entry-title">Patient Data Entry</h2>
-      <p class="entry-subtitle">Choose how you want to initialize the simulation</p>
+      <h2 class="entry-title">Research Data Entry</h2>
+      <p class="entry-subtitle">Choose how to initialize the discovery pipeline</p>
       
       <div class="entry-options">
         <div class="entry-option-card" onclick="document.getElementById('json-upload').click()">
           <div class="option-icon"><i data-lucide="file-up"></i></div>
-          <h3>Upload Patient JSON</h3>
+          <h3>Upload Experimental JSON</h3>
           <p>Import a complete clinical profile from a .json file</p>
           <input type="file" id="json-upload" accept=".json" style="display:none" onchange="handleJsonUpload(event)">
         </div>
@@ -782,7 +782,7 @@ function handleJsonUpload(event) {
 <header>
   <div>
     <div class="logo" style="display: flex; align-items: center;"><img src="/quantamed/static/logo.png" style="height: 32px; margin-right: 12px;" onerror="this.style.display='none'">FOLD<span>ABLES</span></div>
-    <div class="logo-sub">QUANTUM-ENHANCED PRECISION DRUG DISCOVERY</div>
+    <div class="logo-sub">AI-POWERED CATALYST DISCOVERY FOR SUSTAINABLE FUELS</div>
   </div>
   <div class="status-bar">
     <span class="tag quantum">QISKIT VQE</span>
@@ -797,7 +797,7 @@ function handleJsonUpload(event) {
 
   <!-- MODE SWITCHER -->
   <div class="mode-tabs">
-    <button id="tab-quantamed" class="mode-tab active" onclick="switchMode('quantamed')">🧬 FOLDABLES DISCOVERY</button>
+    <button id="tab-quantamed" class="mode-tab active" onclick="switchMode('quantamed')">⚗️ FOLDABLES CATALYST DISCOVERY</button>
     <button id="tab-protein"   class="mode-tab" onclick="switchMode('protein')">🔬 PROTEIN SIMULATION</button>
     <button id="tab-triage"    class="mode-tab" onclick="switchMode('triage')">⚕️ PHARMACOVIGILANCE</button>
   </div>

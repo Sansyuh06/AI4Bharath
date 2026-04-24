@@ -25,11 +25,10 @@ _AVAILABLE_ACTIONS: list[str] = [
 
 class DrugTriageEnv:
     """
-    OpenEnv-compliant pharmacovigilance triage environment.
+    OpenEnv-compliant catalyst discovery environment.
 
-    An agent investigates a drug's adverse event profile using FDA FAERS data,
-    official drug labels, signal analysis, and published literature, then
-    submits a regulatory recommendation.
+    An researcher investigates a catalyst's performance profile using adsorption energies,
+    surface structures, and experimental yields, then submits a discovery recommendation.
 
     Usage::
 

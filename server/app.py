@@ -151,12 +151,12 @@ async def lifespan(app: FastAPI):
 # ---------------------------------------------------------------------------
 
 app = FastAPI(
-    title="Drug-Triage-Env",
+    title="Foldables — Catalyst Discovery Platform",
     description=(
-        "A real-world OpenEnv pharmacovigilance environment where AI agents "
-        "investigate FDA FAERS adverse event signals and recommend regulatory actions "
-        "across 3 drugs of increasing difficulty."),
-    version="1.0.0",
+        "An AI-powered molecular discovery platform for catalyst and enzyme engineering. "
+        "Compressing the discovery cycle for sustainable fuels (NG SAF) from 6 months to 3 weeks "
+        "through closed-loop experimental feedback and quantum-ready simulation."),
+    version="2.0.0",
     lifespan=lifespan,
 )
 
